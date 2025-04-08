@@ -2,6 +2,12 @@ const projects = [
   { title: 'Momentia', desc: 'Un réseau social inspiré d’Instagram avec backend Node.js, Supabase, et frontend en Vue + Tailwind. Design custom, like/comment/follow.', img: '/assets/momentia.png', url: '#' },
   { title: 'Contes Magiques', desc: 'Application mobile Android en Kotlin générant des histoires illustrées avec l’API ChatGPT, destinée aux enfants de 5 à 9 ans.', img: '/assets/contes.png', url: '#' },
   { title: 'Portfolio Pixel Hayabusa', desc: 'Un portfolio stylé Edgerunners avec moto jaune, ville cyberpunk et fond en pixel art.', img: '/assets/pixelbike.png', url: '#' },
+  { title: 'Portfolio Funky', desc: 'Mon portfolio actuel, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio.png', url: '#' },
+  { title: 'Portfolio 2024', desc: 'Mon ancien portfolio, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio2024.png', url: '#' },
+  { title: 'Portfolio 2023', desc: 'Mon ancien portfolio, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio2023.png', url: '#' },
+  { title: 'Portfolio 2022', desc: 'Mon ancien portfolio, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio2022.png', url: '#' },
+  { title: 'Portfolio 2021', desc: 'Mon ancien portfolio, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio2021.png', url: '#' },
+  { title: 'Portfolio 2020', desc: 'Mon ancien portfolio, un site web funky et coloré, avec une ambiance rétro et des animations.', img: '/assets/portfolio2020.png', url: '#' },
 ]
 
 function Projects() {
