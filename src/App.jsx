@@ -9,20 +9,18 @@ import Footer from './components/Footer'
 function App() {
   const [theme, setTheme] = useState('light')
   const cycleTheme = () => {
-    const next = theme === 'light' ? 'dark' : theme === 'dark'
+    const next = theme === 'light' ? 'dark' : 'light'
     setTheme(next)
   }
 
   return (
     <div
-      className={`
+      className={`min-h-screen transition-all duration-500 
         ${theme === 'light' ? 'bg-white text-gray-800' : ''} 
-        ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : ''} 
-       `}
-
+        ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : ''}`}
     >
       <Navbar theme={theme} cycleTheme={cycleTheme} />
-      <main>
+      <main className="px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <Hero theme={theme} />
         <About theme={theme} />
         <Projects theme={theme} />

@@ -5,7 +5,8 @@ function Footer({ theme }) {
       ${theme === 'dark' ? 'bg-gray-900 text-gray-400 border-gray-700' : ''}
     `}>
       <p className="font-semibold tracking-wide">
-        🌼 Merci de votre visite, à très bientôt ! 🌸' : '© 2025 Erwan Maréchal. Tous droits réservés.'
+         Merci de votre visite, à très bientôt !
+         © 2025 Erwan Maréchal. Tous droits réservés.
       </p>
       <div className="flex justify-center gap-6 mt-3 text-sm">
         <a

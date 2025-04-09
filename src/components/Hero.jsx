@@ -3,7 +3,7 @@ function Hero({ theme }) {
     <section
       id="hero"
       className={`scroll-mt-32 h-screen flex items-center justify-center text-center px-4 transition-all duration-300 
-        ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : ''}
+        ${theme === 'dark' ? 'bg-transparent text-gray-100' : ''}
         ${theme === 'light' ? 'bg-transparent text-[#3e2f5b]' : ''}
       `}
     >

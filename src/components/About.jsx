@@ -15,8 +15,8 @@ const skills = [
 function About({ theme }) {
   return (
     <section id="about" className={`scroll-mt-32 py-20 px-4 max-w-5xl mx-auto transition-all duration-300 
-      ${theme === 'light' ? 'bg-white text-gray-800' : ''} 
-      ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : ''}`}
+      ${theme === 'light' ? 'bg-transparent text-gray-800' : ''} 
+      ${theme === 'dark' ? 'bg-transparent text-gray-100' : ''}`}
     >
       <h2 className={`text-3xl font-bold mb-8 text-center 
         ${theme === 'dark' ? 'text-gray-100' : ''} 
