@@ -1,50 +1,21 @@
 function About() {
-  const stack = [
-    { name: "Python", level: 5 },
-    { name: "JavaScript", level: 4 },
-    { name: "Java", level: 4 },
-    { name: "C", level: 4 },
-    { name: "HTML/CSS", level: 5 },
-    { name: "SQL", level: 5 },
-    { name: "PHP", level: 4 },
-    { name: "Node.js", level: 4 },
-    { name: "Vue.js", level: 4 },
-    { name: "React", level: 3 },
-    { name: "C++", level: 3 },
-    { name: "Kotlin", level: 2 },
-    { name: "Assembly", level: 3 },
-  ];
   return (
-    <section id="about" className="scroll-mt-32 py-16 px-4 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-6">À propos</h2>
-      <p className="text-gray-600 text-lg leading-relaxed">
-      Actuellement étudiant en développement web et application à l’Efrei Paris.<br />
-        Rigoureux, curieux et motivé, je souhaite mettre en pratique mes compétences techniques en frontend (HTML, CSS, JavaScript, Vue.js…) comme en backend (Node.js, PHP, Python…), tout en continuant à apprendre au sein d’une équipe dynamique.
-        <br /><br />
-        Mon objectif à partir de la rentrée 2025-2026 : intégrer une alternance dans le même domaine, pour renforcer mon expérience et monter en compétences.
-      </p>
-      <div>
-        <h3 className="text-2xl font-funky mb-3">💻 Stack de langages</h3>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 font-retro">
-          {stack.map((lang, idx) => (
-            <li key={idx}>
-              <p className="mb-1">{lang.name}</p>
-              <div className="flex space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <div
-                    key={i}
-                    className={`h-3 w-6 rounded-sm ${
-                      i < lang.level ? 'bg-cream' : 'bg-cream/30'
-                    }`}
-                  ></div>
-                ))}
-              </div>
-            </li>
+    <section id="about" className="scroll-mt-32 py-20 px-4 max-w-5xl mx-auto">
+      <h2 className="text-3xl font-bold text-gray-900 mb-8">À propos</h2>
+      <div className="space-y-4 text-gray-700 text-lg">
+        <p>Actuellement étudiant en développement web à l’Efrei Paris, je suis passionné par la conception de solutions digitales modernes et centrées utilisateur.</p>
+        <p>Mon approche combine rigueur, curiosité et créativité. Je travaille régulièrement avec des outils comme <strong>React</strong>, <strong>Vue</strong>, <strong>Node.js</strong>, <strong>Supabase</strong>, et bien d’autres.</p>
+        <p>Mon objectif : devenir développeur fullstack dans une structure où je peux apprendre, collaborer et avoir de l’impact.</p>
+      </div>
+      <div className="mt-8">
+        <h3 className="text-xl font-semibold mb-2">Stack technique</h3>
+        <ul className="flex flex-wrap gap-2">
+          {["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "SQL", "Node.js", "Vue.js", "React", "Supabase", "Kotlin"].map((tech) => (
+            <li key={tech} className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">{tech}</li>
           ))}
         </ul>
       </div>
     </section>
-    
   )
 }
 

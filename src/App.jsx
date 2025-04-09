@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="bg-cream text-gray-800 font-retro scroll-smooth">
+    <div className="bg-[#f9fafb] text-gray-800 font-sans scroll-smooth">
       <Navbar />
       <main>
         <Hero />
@@ -19,4 +19,5 @@ function App() {
     </div>
   )
 }
+
 export default App
