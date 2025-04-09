@@ -1,11 +1,13 @@
 function Contact() {
   return (
-    <section id="contact" className="scroll-mt-32 p-10 bg-skyBlue text-gray-800 text-center rounded-3xl mx-4 my-10">
-      <h2 className="text-3xl font-bold font-funky mb-4">On discute ? ✉️</h2>
-      <p className="text-lg font-retro">
-        Envie de collaborer, discuter ou juste dire coucou ? 👉
-        <a href="mailto:erwan.a.marechal@gmail.com" className="underline hover:text-pistachio ml-1">Écris-moi !</a>
+    <section id="contact" className="scroll-mt-32 py-16 px-4 max-w-3xl mx-auto text-center">
+      <h2 className="text-3xl font-semibold text-gray-800 mb-6">Contact</h2>
+      <p className="text-lg text-gray-600 mb-4">
+        Pour toute collaboration, proposition ou question, n’hésitez pas à m’écrire.
       </p>
+      <a href="mailto:tonmail@mail.com" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors">
+        Me contacter
+      </a>
     </section>
   )
 }

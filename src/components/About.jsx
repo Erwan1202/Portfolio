@@ -14,17 +14,15 @@ function About() {
     { name: "Kotlin", level: 2 },
     { name: "Assembly", level: 3 },
   ];
-
   return (
-    <section id="about" className="scroll-mt-32 p-10 bg-pistachio text-cream rounded-3xl shadow-2xl mx-4 my-10">
-      <h2 className="text-3xl md:text-4xl font-bold font-funky mb-4">Moi, en quelques lignes</h2>
-      <p className="font-retro text-lg leading-relaxed mb-6">
-        Actuellement étudiant en développement web et application à l’Efrei Paris.<br />
+    <section id="about" className="scroll-mt-32 py-16 px-4 max-w-4xl mx-auto">
+      <h2 className="text-3xl font-semibold text-gray-800 mb-6">À propos</h2>
+      <p className="text-gray-600 text-lg leading-relaxed">
+      Actuellement étudiant en développement web et application à l’Efrei Paris.<br />
         Rigoureux, curieux et motivé, je souhaite mettre en pratique mes compétences techniques en frontend (HTML, CSS, JavaScript, Vue.js…) comme en backend (Node.js, PHP, Python…), tout en continuant à apprendre au sein d’une équipe dynamique.
         <br /><br />
         Mon objectif à partir de la rentrée 2025-2026 : intégrer une alternance dans le même domaine, pour renforcer mon expérience et monter en compétences.
       </p>
-
       <div>
         <h3 className="text-2xl font-funky mb-3">💻 Stack de langages</h3>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 font-retro">
@@ -46,7 +44,8 @@ function About() {
         </ul>
       </div>
     </section>
-  );
+    
+  )
 }
 
-export default About;
+export default About
